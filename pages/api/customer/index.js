@@ -1,5 +1,5 @@
-import Customer from "@/models/Customer";
-import connectDB from "@/utils/connecDB";
+import Customer from "@/models/Customer.js";
+import connectDB from "@/utils/connectDB.js";
 
 export default async function handler(req, res) {
   try {

@@ -8,7 +8,6 @@ function ItemList({ form, setForm }) {
       ...form,
       products: [...products, { name: "", price: "", qty: "" }],
     });
-    console.log(products);
   };
 
   const changeHandler = (e, index) => {
