@@ -1,12 +1,9 @@
+import HomePage from "@/components/template/HomePage";
 import Customer from "@/models/Customer";
 import connectDB from "@/utils/connectDB";
 
-function Index() {
-  return (
-    <>
-      <h1>CRM</h1>
-    </>
-  );
+function Index({ customers }) {
+  return <HomePage customers={customers} />;
 }
 
 export default Index;
